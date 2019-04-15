@@ -12,7 +12,10 @@ def load_model(config_path):
     print("Completed loading the model")
     return model
 
-def predict(model, in_sequence = []):
+def predict(sen):
+    path_to_config = "/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/model_config.json"
+    in_sequence = sen.split(" ")
+    model = load_model(path_to_config)
     pred_sequence = model.predict(in_sequence)
     return pred_sequence
 
