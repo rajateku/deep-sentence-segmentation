@@ -38,7 +38,10 @@ def data_gen(all_sents, max_no_sents = 10, data_len = 10000, file_name = 'data.t
     for _ in progressbar.progressbar(range(data_len)):
         sents = []
         for __ in range(random.randint(0, max_no_sents)):
-            sents.append(bad_sentence_generator(random.choice(all_sents), remove_punctuation=remove_punctuation))
+            try:
+                sents.append(bad_sentence_generator(random.choice(all_sents), remove_punctuation=remove_punctuation))
+            except:
+                print("pass")
         for sent in sents:
             for i, word in enumerate(sent.split()):
                 if i == 0:
