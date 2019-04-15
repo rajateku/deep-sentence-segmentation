@@ -1,5 +1,8 @@
 import os
 import json
+
+import sys
+print(sys.path.append("."))
 from models import data_builder
 from models.data_utils import CoNLLDataset
 from models.ner_model import NERModel
@@ -48,4 +51,4 @@ def train(config_path, continue_training=False):
 
 if __name__ == "__main__":
     # print("Enter config json path")
-    train("/home/user/Documents/bitbucket-repos/online_git_clones_prep/sentence-tagging/model_config.json")
+    train("/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/model_config.json")
