@@ -1,9 +1,9 @@
 import os
 import json
-from models import data_builder
-from models.data_utils import CoNLLDataset
-from models.ner_model import NERModel
-from models.config import Config
+from . import data_builder
+from .data_utils import CoNLLDataset
+from .ner_model import NERModel
+from .config import Config
 
 
 def train(config_path, continue_training=False):
