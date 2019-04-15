@@ -56,7 +56,7 @@ def data_gen(all_sents, max_no_sents = 10, data_len = 10000, file_name = 'data.t
 
 
 if __name__ == '__main__':
-    all_sents = open('golden_english_sentences.txt').readlines()
+    all_sents = open('/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/golden_english_sentences.txt').readlines()
     all_sents = [i.strip() for i in all_sents]
     # for i in range(10):
     #     sent = random.choice(all_sents)
