@@ -61,5 +61,5 @@ if __name__ == '__main__':
     # for i in range(10):
     #     sent = random.choice(all_sents)
     #     print(sent, bad_sentence_generator(sent))
-    data_gen(all_sents[15000:], data_len=100000, file_name='/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/train.txt')
-    data_gen(all_sents[2000:15000], data_len=10000, file_name='/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/valid.txt')
+    data_gen(all_sents[150000:], data_len=1000000, file_name='/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/train.txt')
+    data_gen(all_sents[20000:150000], data_len=1000000, file_name='/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/valid.txt')
