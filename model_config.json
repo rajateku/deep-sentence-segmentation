@@ -1,6 +1,6 @@
 {
-	"data_folder": "/home/user/Documents/bitbucket-repos/online_git_clones_prep/deepsegment/data/",
-	"dir_output": "/home/user/Documents/bitbucket-repos/online_git_clones_prep/deepsegment/test_output/",
+	"data_folder": "/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/",
+	"dir_output": "/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/",
 	"glove_path": "/home/user/glove_pretrained_models/glove.6B.300d.txt",
 	"nepochs": 2,
 	"batch_size": 32,
