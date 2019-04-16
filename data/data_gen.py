@@ -2,7 +2,8 @@ import re
 import string
 import pickle
 import random
-random.seed(6788)
+import sys
+random.seed(777)
 import progressbar
 
 def bad_sentence_generator(sent, remove_punctuation = None):
@@ -59,10 +60,8 @@ def data_gen(all_sents, max_no_sents = 10, data_len = 10000, file_name = 'data.t
 
 
 if __name__ == '__main__':
-    all_sents = open('/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/golden_english_sentences.txt').readlines()
+    sys.path.append(".")
+    all_sents = open('./data/golden_english_sentences.txt').readlines()
     all_sents = [i.strip() for i in all_sents]
-    # for i in range(10):
-    #     sent = random.choice(all_sents)
-    #     print(sent, bad_sentence_generator(sent))
-    data_gen(all_sents[150000:], data_len=1000000, file_name='/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/train.txt')
-    data_gen(all_sents[20000:150000], data_len=1000000, file_name='/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/valid.txt')
+    data_gen(all_sents[150000:], data_len=1000000, file_name='./data/train.txt')
+    data_gen(all_sents[20000:150000], data_len=1000000, file_name='./data/valid.txt')

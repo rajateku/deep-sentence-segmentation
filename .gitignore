@@ -6,3 +6,4 @@ data/valid.txt
 test_output/
 train.txt
 valid.txt
+glove.6B.300d.txt

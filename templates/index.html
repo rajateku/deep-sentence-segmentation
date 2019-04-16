@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentence boundary disambugation UI</title>
+</head>
+
+<style>
+#container{
+display:flex;
+width:100%;
+flex-wrap:no-wrap;
+}
+h5{margin:0PX}
+
+#Summarize {
+width: 8em;  height: 2em;
+color:white;
+background-color:green
+
+}
+</style>
+
+
+<body>
+
+
+
+<h4> ENTER INPUT SENTENCES : </h4>
+  <div id="container"><div id="request"><form action="" method="POST">
+  <textarea name="paragraph" rows="20" cols="90">{{ paragraph }}</textarea>
+  <br><br>
+  <input type="submit" id="Sentencify" value="Sentencify"  />
+        <br><br>
+
+
+</form></div>
+
+<div id="result"><h5> Our sentences : </h5>
+  <div id="sentencify" rows="12" cols="100"></div></div>
+</div>
+
+<script>
+var data= ({{response|safe}});
+ data.map(function myFunction(listitem,index) {
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode(listitem);
+    node.appendChild(textnode);
+    document.getElementById("sentencify").appendChild(node);
+})
+</script>
+
+
+<div id="result2"><h5> NLTK sentences : </h5>
+  <div id="sentencify_nltk" rows="12" cols="100"></div></div>
+</div>
+
+<script>
+var data= ({{response_nltk|safe}});
+ data.map(function myFunction(listitem,index) {
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode(listitem);
+    node.appendChild(textnode);
+    document.getElementById("sentencify_nltk").appendChild(node);
+})
+</script>
+
+<div id="result3"><h5> Spacy sentences : </h5>
+  <div id="sentencify_spacy" rows="12" cols="100"></div></div>
+</div>
+
+<script>
+var data= ({{response_spacy|safe}});
+ data.map(function myFunction(listitem,index) {
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode(listitem);
+    node.appendChild(textnode);
+    document.getElementById("sentencify_spacy").appendChild(node);
+})
+</script>
+
+</body>
+</html>

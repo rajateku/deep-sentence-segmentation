@@ -1,5 +1,7 @@
 __author__ = 'Raja Teku'
 import json
+import sys
+print(sys.path.append("."))
 from .ner_model import NERModel
 from .config import Config
 
@@ -13,11 +15,24 @@ def load_model(config_path):
     return model
 
 def predict(sen):
-    path_to_config = "/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/model_config.json"
+    path_to_config = "./model_config.json"
     in_sequence = sen.split(" ")
     model = load_model(path_to_config)
-    pred_sequence = model.predict(in_sequence)
-    return pred_sequence
+    tags = model.predict(in_sequence)
+    sents= []
+    current_sent = []
+    text = sen.strip().split()
+    for i, word in enumerate(text):
+        if tags[i] == 'B-sent':
+            if current_sent:
+                sents.append(' '.join(current_sent))
+            current_sent = [word]
+        else:
+            current_sent.append(word)
+
+    sents.append(' '.join(current_sent))
+
+    return sents
 
 if __name__ == '__main__':
     pass
