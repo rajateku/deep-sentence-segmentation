@@ -355,3 +355,9 @@ batch_dim is deprecated, use batch_axis instead
 2019-04-15 22:01:43,155:INFO: - new best score!
 2019-04-15 22:01:43,155:INFO: Epoch 4 out of 7
 2019-04-15 22:01:43,155:INFO: Epoch 4 out of 7
+2019-04-16 02:34:25,276:INFO: acc 97.32 - f1 88.95
+2019-04-16 02:34:25,276:INFO: acc 97.32 - f1 88.95
+2019-04-16 02:34:26,450:INFO: - new best score!
+2019-04-16 02:34:26,450:INFO: - new best score!
+2019-04-16 02:34:26,450:INFO: Epoch 5 out of 7
+2019-04-16 02:34:26,450:INFO: Epoch 5 out of 7
