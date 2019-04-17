@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
-	"data_folder": "/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/data/",
-	"dir_output": "/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/",
-	"glove_path": "/media/nava/sd2/raja-stuff/sen-tagging/Raja-stuff/glove.6B/glove.6B.300d.txt",
-	"nepochs": 7,
-=======
 	"data_folder": "./data/",
 	"dir_output": "./test_output/",
 	"glove_path": "./data/glove.6B.300d.txt",
 	"nepochs": 15,
->>>>>>> 4ab587d0347a10483a227a95a2d9d6a2b11047d9
 	"batch_size": 32,
 	"dropout": 0.2,
 	"nepoch_no_imprv": 3,
