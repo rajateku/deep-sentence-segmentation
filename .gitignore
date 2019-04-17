@@ -3,6 +3,5 @@
 rough.py
 data/train.txt
 data/valid.txt
-test_output/
 train.txt
 valid.txt

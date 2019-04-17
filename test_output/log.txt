@@ -361,3 +361,53 @@ batch_dim is deprecated, use batch_axis instead
 2019-04-16 02:34:26,450:INFO: - new best score!
 2019-04-16 02:34:26,450:INFO: Epoch 5 out of 7
 2019-04-16 02:34:26,450:INFO: Epoch 5 out of 7
+2019-04-16 07:06:56,267:INFO: acc 97.40 - f1 89.26
+2019-04-16 07:06:56,267:INFO: acc 97.40 - f1 89.26
+2019-04-16 07:06:57,864:INFO: - new best score!
+2019-04-16 07:06:57,864:INFO: - new best score!
+2019-04-16 07:06:57,864:INFO: Epoch 6 out of 7
+2019-04-16 07:06:57,864:INFO: Epoch 6 out of 7
+2019-04-16 11:38:54,877:INFO: acc 97.46 - f1 89.60
+2019-04-16 11:38:54,877:INFO: acc 97.46 - f1 89.60
+2019-04-16 11:38:56,005:INFO: - new best score!
+2019-04-16 11:38:56,005:INFO: - new best score!
+2019-04-16 11:38:56,005:INFO: Epoch 7 out of 7
+2019-04-16 11:38:56,005:INFO: Epoch 7 out of 7
+2019-04-16 16:11:28,926:INFO: acc 97.44 - f1 89.44
+2019-04-16 16:11:28,926:INFO: acc 97.44 - f1 89.44
+2019-04-16 20:58:05,258:WARNING: From /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/venv/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:430: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2019-04-16 20:58:05,261:WARNING: From /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/venv/local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:454: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2019-04-16 20:58:06,660:INFO: Initializing tf session
+2019-04-16 20:58:12,998:INFO: Reloading the latest trained model...
+2019-04-16 20:58:13,000:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 21:04:21,425:INFO: Initializing tf session
+2019-04-16 21:04:21,425:INFO: Initializing tf session
+2019-04-16 21:04:21,717:INFO: Reloading the latest trained model...
+2019-04-16 21:04:21,717:INFO: Reloading the latest trained model...
+2019-04-16 21:04:21,718:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 21:04:21,718:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 22:06:57,702:INFO: Initializing tf session
+2019-04-16 22:06:57,702:INFO: Initializing tf session
+2019-04-16 22:06:57,702:INFO: Initializing tf session
+2019-04-16 22:06:58,007:INFO: Reloading the latest trained model...
+2019-04-16 22:06:58,007:INFO: Reloading the latest trained model...
+2019-04-16 22:06:58,007:INFO: Reloading the latest trained model...
+2019-04-16 22:06:58,009:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 22:06:58,009:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 22:06:58,009:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 22:14:36,614:INFO: Initializing tf session
+2019-04-16 22:14:36,614:INFO: Initializing tf session
+2019-04-16 22:14:36,614:INFO: Initializing tf session
+2019-04-16 22:14:36,614:INFO: Initializing tf session
+2019-04-16 22:14:36,905:INFO: Reloading the latest trained model...
+2019-04-16 22:14:36,905:INFO: Reloading the latest trained model...
+2019-04-16 22:14:36,905:INFO: Reloading the latest trained model...
+2019-04-16 22:14:36,905:INFO: Reloading the latest trained model...
+2019-04-16 22:14:36,906:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 22:14:36,906:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 22:14:36,906:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
+2019-04-16 22:14:36,906:INFO: Restoring parameters from /media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/test_output/model.weights/
