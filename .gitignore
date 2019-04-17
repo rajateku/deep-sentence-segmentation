@@ -5,3 +5,4 @@ data/train.txt
 data/valid.txt
 train.txt
 valid.txt
+glove.6B.300d.txt

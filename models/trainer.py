@@ -51,4 +51,4 @@ def train(config_path, continue_training=False):
 
 if __name__ == "__main__":
     # print("Enter config json path")
-    train("/media/nava/sd2/raja-stuff/sen-tagging/sentence-tagging/model_config.json")
+    train("./model_config.json")
