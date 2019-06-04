@@ -16,7 +16,7 @@ python data/data_gen.py
 Step 2: Change Hyperparameters
 File here : models/config.py
 
-Step 2: Start Training
+Step 3: Start Training
 python  models/trainer.py
 
 ```
